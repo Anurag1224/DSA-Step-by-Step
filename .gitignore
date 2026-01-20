@@ -1,0 +1,65 @@
+# Compiled Objects
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+
+# Executables
+a.exe
+a.out
+*.gch
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled binaries
+bin/
+build/
+dist/
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Temp files
+*.tmp
+*.temp
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Node modules (if any web content)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Backup files
+*.backup
+*.bak
+
+# Don't ignore source files
+!*.cpp
+!*.h
+!*.md
+!*.txt
