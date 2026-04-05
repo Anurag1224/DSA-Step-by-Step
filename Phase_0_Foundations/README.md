@@ -62,8 +62,8 @@ Think before coding. Verify before submitting.
 
 ## Progress Tracker (PHASE 0)
 
-- [ ] Day 1: Time & Space Complexity
-- [ ] Day 2: Modulo, Overflow & Fast Power
+- [x] Day 1: Time & Space Complexity
+- [x] Day 2: Modulo, Overflow & Fast Power
 - [ ] Day 3: Input Constraints & Edge Cases
 - [ ] Day 4: Recursion Stack Understanding
 - [ ] Day 5: Math Fundamentals
