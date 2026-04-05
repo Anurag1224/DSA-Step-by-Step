@@ -12,27 +12,33 @@
 - ✅ **BEST_PRACTICES.md** — Code quality standards
 - ✅ **CONTRIBUTING.md** — How to contribute and use repo
 
-### 🎯 Phase 0 - Day 1 Complete
-- ✅ **Comprehensive README** — Big-O intuition explained deeply
-- ✅ **4 Solution Files** — Fully commented with theory + practice
-  - Count Digits (O(d) complexity)
-  - Reverse Number (digit extraction pattern)
-  - Palindrome Number (comparison via reversal)
-  - GCD (Euclidean algorithm - O(log n))
-- ✅ **Notes.md** — Key learnings, gotchas, interview tips
+### 🎯 Phase 0 - Day 1 & Day 2 Complete
+- ✅ **Day 1: Time & Space Complexity** — Big-O intuition, 4 problems
+- ✅ **Day 2: Modulo, Overflow & Fast Power** — Mathematical foundations
+  - Safe Addition (overflow detection)
+  - Modular Exponentiation (binary exponentiation)
+  - Large Factorial Modulo (efficient computation)
+  - Fast Multiplication (Russian peasant algorithm)
 - ✅ **Multiple Test Cases** — Each solution fully tested
 
 ### 🗂️ Repository Structure
 ```
 Clean, organized, professional layout:
 Phase_0_Foundations/
-└── Day_1_Time_Complexity/
-    ├── README.md           (5000+ words, deeply explained)
-    ├── 01_count_digits.cpp (500+ lines with comments)
-    ├── 02_reverse_number.cpp
-    ├── 03_palindrome_number.cpp
-    ├── 04_gcd_euclidean.cpp
-    └── Notes.md            (Quick reference + gotchas)
+├── Day_1_Time_Complexity/
+│   ├── README.md           (5000+ words, deeply explained)
+│   ├── 01_count_digits.cpp (500+ lines with comments)
+│   ├── 02_reverse_number.cpp
+│   ├── 03_palindrome_number.cpp
+│   └── 04_gcd_euclidean.cpp
+│   └── Notes.md            (Quick reference + gotchas)
+└── Day_2_Modulo_Overflow_Fast_Power/
+    ├── README.md           (Comprehensive theory + problems)
+    ├── 01_safe_addition.cpp (Overflow detection methods)
+    ├── 02_modular_exponentiation.cpp (Binary exponentiation)
+    ├── 03_large_factorial_modulo.cpp (Efficient factorial computation)
+    ├── 04_fast_multiplication.cpp (Russian peasant algorithm)
+    └── Notes.md            (Interview tips + common mistakes)
 ```
 
 ### 🔧 Configuration
