@@ -64,7 +64,7 @@ Think before coding. Verify before submitting.
 
 - [x] Day 1: Time & Space Complexity
 - [x] Day 2: Modulo, Overflow & Fast Power
-- [ ] Day 3: Input Constraints & Edge Cases
+- [x] Day 3: Input Constraints & Edge Cases
 - [ ] Day 4: Recursion Stack Understanding
 - [ ] Day 5: Math Fundamentals
 - [ ] Day 6: Bitwise Basics
