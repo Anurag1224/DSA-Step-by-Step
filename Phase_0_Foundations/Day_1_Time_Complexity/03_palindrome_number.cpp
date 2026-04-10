@@ -99,8 +99,7 @@ bool isPalindrome(int n) {
 //
 // bool isPalindromeAlt(int n) {
 //     if (n < 0) return false;
-//
-//     // Convert to string for easy digit access
+       // Convert to string for easy digit access
 //     string s = to_string(n);
 //
 //     int left = 0;
@@ -203,9 +202,9 @@ int main() {
 //    ✓ Legitimate transactions often have certain symmetry properties
 //
 // Example (Payment Card Validation):
-//   // Some credit cards have palindrome properties in certain fields
+     // Some credit cards have palindrome properties in certain fields
 //   if (isPalindrome(cardNumber)) {
-//       // Additional verification might be needed
+         // Additional verification might be needed
 //       performExtraChecks();
 //   }
 //
@@ -216,8 +215,8 @@ int main() {
 //
 // ❌ Problem: Forgetting negative check
 //   bool wrong = (n == reverseNumber(n));  // -121 would check fine!
-//   // But mathematically, -121 reversed is -121, so would return true
-//   // Yet -121 should NOT be palindrome (sign matter)
+     // But mathematically, -121 reversed is -121, so would return true
+     // Yet -121 should NOT be palindrome (sign matter)
 //   → validation fails silently
 //   → fraudulent IDs might pass checks
 //
@@ -228,7 +227,7 @@ int main() {
 //
 // ❌ Problem: Using only string comparison (inefficient)
 //   string s = to_string(n);  // extra O(d) space
-//   // Better to use reversal approach (no extra space)
+     // Better to use reversal approach (no extra space)
 //
 // ✅ Solution: Explicit negative handling + overflow-safe reversal
 //

@@ -1,4 +1,4 @@
-# ⏱️ DAY 1: Time & Space Complexity
+# ⏱️ DAY 1: Time & Space Complexity 
 
 **Learn to measure algorithm efficiency without running it.**
 
@@ -48,9 +48,9 @@ This is **linear growth** → **O(n)**
 
 ### Scenario: Processing 1 Million Users
 
-Algorithm	Time for 1M users	Practical?
-O(n)	1 second	✅ Yes
-O(n²)	1 million seconds (11 days)	❌ No
+Algorithm	Time for 1M users	          Practical?
+O(n)	        1 second                    ✅ Yes
+O(n²)	1 million seconds (11 days)	        ❌ No
 
 Your O(n²) algorithm that worked fine with 1000 users **completely breaks** with 1 million.
 

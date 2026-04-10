@@ -132,7 +132,7 @@ int main() {
 //   if (countDigits(phoneNumber) != 10) {
 //       throw InvalidPhoneNumber();
 //   }
-//   // Valid only if has exactly 10 digits
+     // Valid only if has exactly 10 digits
 //
 
 // ============================================================================
@@ -149,7 +149,7 @@ int main() {
 //   → users locked out of accounts
 //
 // ❌ Problem: Integer overflow (for large numbers)
-//   // If we were multiplying instead of dividing, we could overflow
+     // If we were multiplying instead of dividing, we could overflow
 //   int result = n * 10;  // could overflow!
 //
 // ✅ Solution: Explicit edge case handling + clear logic

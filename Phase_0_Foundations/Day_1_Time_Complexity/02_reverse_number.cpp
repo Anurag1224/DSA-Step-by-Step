@@ -85,7 +85,7 @@ int reverseNumber(int n) {
 //         int digit = n_abs % 10;
 //         reversed = reversed * 10 + digit;
 //
-//         // Check overflow before returning
+           // Check overflow before returning
 //         if (reversed > INT_MAX) return 0;  // or handle error
 //
 //         n_abs /= 10;
@@ -170,8 +170,8 @@ int main() {
 // Example (Transaction ID obfuscation):
 //   int internalId = 12345;
 //   int publicId = reverseNumber(internalId);  // 54321
-//   // Store publicId in database
-//   // When user references it, reverse back:
+     // Store publicId in database
+     // When user references it, reverse back:
 //   int recovered = reverseNumber(publicId);  // 12345
 //
 
@@ -182,7 +182,7 @@ int main() {
 // ❌ Problem: Not initializing reversed variable
 //   int reversed;  // uninitialized!
 //   reversed = reversed * 10 + digit;  // garbage value * 10 + digit
-//   // Results in unpredictable values
+     // Results in unpredictable values
 //
 // ❌ Problem: Forgetting negative handling
 //   reverseNumber(-123) → treats as 123, reverses to 321
@@ -191,8 +191,8 @@ int main() {
 //
 // ❌ Problem: Not handling trailing zeros
 //   reverseNumber(1200) → 21 (correct due to algorithm)
-//   // But if you manually reverse: "0021" → leading zeros
-//   // Must understand this automatically handled by integer arithmetic
+     // But if you manually reverse: "0021" → leading zeros
+     // Must understand this automatically handled by integer arithmetic
 //
 // ❌ Problem: Integer overflow in reversal
 //   If number is near INT_MAX, reversing could overflow

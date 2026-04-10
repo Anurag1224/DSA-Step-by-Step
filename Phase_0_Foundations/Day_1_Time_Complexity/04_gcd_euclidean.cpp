@@ -51,7 +51,7 @@ using namespace std;
 //
 // int gcdBruteForce(int a, int b) {
 //     int result = 1;
-//     // Check every number from 1 to min(a, b)
+       // Check every number from 1 to min(a, b)
 //     for (int i = 1; i <= min(abs(a), abs(b)); i++) {
 //         if (a % i == 0 && b % i == 0) {
 //             result = i;  // Keep updating to largest found
@@ -257,7 +257,7 @@ int main() {
 //   In iterative systems with shallow stack limits
 //   → program crashes
 //   → partial data loss
-//   // Solution: Use iterative version instead
+     // Solution: Use iterative version instead
 //
 // ❌ Problem: Not handling zero cases
 //   If system assumes both numbers are non-zero
