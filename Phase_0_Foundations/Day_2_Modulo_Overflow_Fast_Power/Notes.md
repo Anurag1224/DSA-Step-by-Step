@@ -217,11 +217,12 @@ long long russianMultiply(long long a, long long b) {
 
 ## 📚 Quick Reference
 
-| Operation | Time Complexity | Safe Range (64-bit) |
-|-----------|-----------------|---------------------|
-| Addition | O(1) | -9.2e18 to 9.2e18 |
-| Multiplication | O(1) | -3e9 to 3e9 (for no overflow) |
-| Fast Power | O(log exp) | Exponents up to 10^18 |
-| Factorial | O(N) | N up to 20 (without modulo) |
-
+```
+| Operation      | Time Complexity | Safe Range (64-bit)           |
+|----------------|-----------------|-------------------------------|
+| Addition       | O(1)            | -9.2e18 to 9.2e18             |
+| Multiplication | O(1)            | -3e9 to 3e9 (for no overflow) |
+| Fast Power     | O(log exp)      | Exponents up to 10^18         |
+| Factorial      | O(N)            | N up to 20 (without modulo)   |
+```
 **Remember**: When in doubt, use `long long` and check for overflow!

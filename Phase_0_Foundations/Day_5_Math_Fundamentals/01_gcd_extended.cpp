@@ -173,7 +173,7 @@ long long modularInverse(long long a, long long m) {
 
 int main() {
     cout << "╔════════════════════════════════════════════════════════════╗\n";
-    cout << "║           EXTENDED GCD - DEMONSTRATION                    ║\n";
+    cout << "║           EXTENDED GCD - DEMONSTRATION                     ║\n";
     cout << "╚════════════════════════════════════════════════════════════╝\n\n";
     
     // Test 1: Basic Extended GCD
