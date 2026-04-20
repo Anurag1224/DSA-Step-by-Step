@@ -41,3 +41,27 @@ long long iterative_factorial(int n) {
     }
     return result;
 }
+
+int main() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    if (n < 0) {
+        cout << "Factorial not defined for negative numbers" << endl;
+        return 1;
+    }
+
+    try {
+        cout << "Recursive factorial: " << safe_factorial(n) << endl;
+        cout << "Iterative factorial: " << iterative_factorial(n) << endl;
+    } catch (const runtime_error& e) {
+        cout << "Error: " << e.what() << endl;
+        cout << "Try iterative approach instead" << endl;
+    }
+
+    // Test with large n to see recursion limits
+    // On most systems, recursion fails around n=10000-50000
+
+    return 0;
+}
