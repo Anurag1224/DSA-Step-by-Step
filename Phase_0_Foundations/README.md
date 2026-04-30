@@ -67,7 +67,7 @@ Think before coding. Verify before submitting.
 - [x] Day 3: Input Constraints & Edge Cases
 - [x] Day 4: Recursion Stack Understanding
 - [x] Day 5: Math Fundamentals (GCD, LCM, Primes)
-- [ ] Day 6: Bitwise Basics
+- [x] Day 6: Bitwise Basics
 - [ ] Day 7: Dry Run & Problem-Solving Mindset
 
 ---
