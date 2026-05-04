@@ -68,7 +68,7 @@ Think before coding. Verify before submitting.
 - [x] Day 4: Recursion Stack Understanding
 - [x] Day 5: Math Fundamentals (GCD, LCM, Primes)
 - [x] Day 6: Bitwise Basics
-- [ ] Day 7: Dry Run & Problem-Solving Mindset
+- [x] Day 7: Dry Run & Problem-Solving Mindset
 
 ---
 

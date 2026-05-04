@@ -55,6 +55,20 @@ Master time complexity, integer overflow, modulo arithmetic, and defensive codin
 
 Nested loops, symmetry, and visual thinking. Essential for loop control mastery.
 
+- **Day 8:** Basic Patterns (Squares, Rectangles, Hollow Patterns)
+- **Day 9:** Nested Loops Mastery
+- **Day 10:** Diamond & Pyramid Patterns
+- **Day 11:** Number Patterns
+- **Day 12:** Triangle Patterns
+- **Day 13:** Star Patterns
+- **Day 14:** Symmetry Patterns
+- **Day 15:** Complex Patterns
+- **Day 16:** Advanced Symmetry
+- **Day 17:** Loop Optimization
+- **Day 18:** Visual Thinking Mastery
+- **Day 19:** Problem-Solving Patterns
+- **Day 20:** Mastery Review & Capstone
+
 ### 🟢 PHASE 2: Arrays (Most Asked in FAANG)
 **Days: 21-45 | Problems: 50-60**
 
